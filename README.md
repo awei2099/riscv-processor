@@ -23,9 +23,8 @@ This repository contains SystemVerilog implementations of various RISC-V datapat
   Two versions of an unsigned divider: one combinational (divider_unsigned.sv) and one pipelined over several cycles (DividerUnsignedPipelined.sv).
 
 - **cla.sv**  
-  A carry-lookahead adder (32-bit) used by the datapath ALU to speed up addition/subtraction.
+  A carry-lookahead adder (32-bit) used by the datapath ALU 
 
 - **RvDisassembler.sv**  
-  Converts a 32-bit RISC-V instruction word into a text string (e.g., `add x1, x2, x3`). Useful for debugging/sim.
-
+  Converts a 32-bit RISC-V instruction word into a text string
 
